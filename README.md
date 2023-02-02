@@ -1,5 +1,11 @@
-# Getting Started with Create React App
+#about this project
+this project is todo website which built by react.
+contained features are adding tasks and viewing your tasks with the ability to delete them and tick that they are done.
 
+# project demo
+
+
+# Getting Started with Create React App.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
