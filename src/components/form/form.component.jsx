@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './form.css';
-import GATIGORY_OPTION from "/Users/manalamro/Downloads/react-todo-app-Manal_Amro 2/src/constants/data.js"
+import { GATIGORY_OPTION } from '../../constant/data'
 
 const Form = (props) => {
   const [title, setTitle] = useState('Go Swim');

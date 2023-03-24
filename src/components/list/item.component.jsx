@@ -1,4 +1,4 @@
-import CATEGORIES_OPTIONS from '../../constants/data';
+import { GATIGORY_OPTION } from '../../constant/data'
 import deleteIcon from '../../assets/delete.svg';
 import checkIcon from '../../assets/check.svg';
 
@@ -26,7 +26,7 @@ const Item = (props) => {
         <h2>{item.title}</h2>
         <span>
           {
-            CATEGORIES_OPTIONS.filter(cat => cat.value === item.category)[0]?.lable
+            GATIGORY_OPTION.filter(cat => cat.value === item.category)[0]?.lable
           }
         </span>
       </div>
