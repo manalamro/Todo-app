@@ -11,7 +11,6 @@ const Dialog = ({ message, onDialog }) => {
         backgroundColor: "rgba(0,0,0,0.5)",
       }}
 
-      onClick={() => onDialog(false)}
     >
 
       <div

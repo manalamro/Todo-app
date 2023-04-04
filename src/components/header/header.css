@@ -13,7 +13,7 @@
   color: #121212;
   text-align: center;
   text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
-    0px -4px 10px rgba(255, 255, 255, 0.3);
+  0px -4px 10px rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
 }
 
@@ -41,4 +41,34 @@
 
 .header nav a:active {
   color: #333;
+}
+
+.header nav link {
+  font-size: medium;
+}
+
+
+/* ================== Media Queries (medium devices) =============== */
+
+@media screen and (max-width:740px) {
+  .header nav a {
+    font-size: 15px;
+    /* outline: 0; */
+    margin: 0 5px;
+    padding: 7px 14px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header h1 {
+    text-align:left;
+    text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+    0px -4px 10px rgba(255, 255, 255, 0.3);
+    text-transform: uppercase;
+    margin-right:5px;
+    display: flex;
+    justify-content: space-between;
+  }
+
 }
